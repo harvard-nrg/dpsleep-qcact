@@ -1,35 +1,25 @@
 DPSleep Pipeline Step #6 (qcact - build the Quality Control pdf file)
 =========
-[![build status](https://ncfcode.rc.fas.harvard.edu/phoenix/qcact/badges/master/build.svg)](https://ncfcode.rc.fas.harvard.edu/phoenix/qcact/commits/master)
 
 ## Table of contents
 1. [Requirements](#requirements)
-2. [Usage examples](#usage-examples)
+2. [Installation](#installation)
+3. [Usage examples](#usage-examples)
 
 ### Requirements
-- Input is from mtl5
+- Before this step "dpsleep-act" and "dpsleep-sync" need to be . Input to this pipeline is from mtl3 and mtl5
 
 - Output is saved in mtl6 as a pdf file
 
+- After this step, run dpsleep-upact
 
-To run the qcact pipeline, users may choose one of the following options:
+### Installation
 
-##### Option 1 - Installation
-
-To install Stopwatch on your system, run the following commands:
+To install dpsleep-qcact pipeline on your system, run the following commands:
 ```bash
-git clone git@ncfcode.rc.fas.harvard.edu:phoenix/qcact .
+git clone git@github.com:harvard-nrg/dpsleep-qcact.git 
 cd qcact
 pip install -r requirements.txt
-```
-
-##### Option 2 - Module Load (Within NCF only)
-
-To load QCACT module on NCF without an installation:
-```bash
-module load miniconda3
-module load matlab/R2017a-fasrc01
-module load qcact/master-ncf
 ```
 
 ### Usage examples
