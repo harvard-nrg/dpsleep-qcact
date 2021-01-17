@@ -7,7 +7,7 @@ DPSleep Pipeline Step #6 (qcact - build the Quality Control pdf file)
 3. [Usage examples](#usage-examples)
 
 ### Requirements
-- Before this step "dpsleep-act" and "dpsleep-sync" need to be . Input to this pipeline is from mtl3 and mtl5
+- Before this step, make sure to run "dpsleep-sync", "dpsleep-act", and all previous steps. Input to this pipeline is from mtl3 and mtl5
 
 - Output is saved in mtl6 as a pdf file
 
